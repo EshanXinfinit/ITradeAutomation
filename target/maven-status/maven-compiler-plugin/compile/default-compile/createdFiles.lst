@@ -1,0 +1,3 @@
+pageObjects/landingPage.class
+base/baseSetup.class
+pageObjects/loggedInPage.class
