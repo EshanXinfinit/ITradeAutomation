@@ -8,8 +8,8 @@ public class baseSetup {
     public static WebDriver driver;
     public WebDriver setup(){
 
-       // WebDriverManager.chromedriver().setup();
-        System.setProperty("webdriver.chrome.driver","/Users/eshan/Documents/chromedriver");
+       WebDriverManager.chromedriver().setup();
+        //System.setProperty("webdriver.chrome.driver","/Users/eshan/Documents/chromedriver");
         driver = new ChromeDriver();
         return driver;
 
